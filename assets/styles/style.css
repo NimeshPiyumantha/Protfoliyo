@@ -3,6 +3,9 @@
  * @since : 0.1.0
 */
 
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
@@ -28,6 +31,39 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #149ddd;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background: #2eafec;
+    color: #fff;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -38,7 +74,6 @@ h6 {
     width: 300px;
     transition: all ease-in-out 0.5s;
     z-index: 9997;
-    transition: all 0.5s;
     padding: 0 15px;
     background: #040b14;
     overflow-y: auto;
@@ -185,7 +220,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# home Section
 --------------------------------------------------------------*/
 #home {
     width: 100%;
