@@ -40,52 +40,73 @@
     <div class="d-flex flex-column">
 
         <div class="profile">
-            <img src="assets/img/mainPhoto.png" alt="" class="img-fluid rounded-circle">
+            <img alt="" class="img-fluid rounded-circle" src="assets/img/mainPhoto.png">
             <h1 class="text-light"><a href="index.html">Nimesh Piyumantha</a></h1>
             <div class="social-links mt-3 text-center">
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-linkedin"></i></a>
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="github"><i class="bx bxl-github"></i></a>
-                <a href="#" class="stack-overflow"><i class="bx bxl-stack-overflow"></i></a>
+                <a class="facebook" href="#"><i class="bx bxl-facebook"></i></a>
+                <a class="facebook" href="#"><i class="bx bxl-linkedin"></i></a>
+                <a class="twitter" href="#"><i class="bx bxl-twitter"></i></a>
+                <a class="github" href="#"><i class="bx bxl-github"></i></a>
+                <a class="stack-overflow" href="#"><i class="bx bxl-stack-overflow"></i></a>
             </div>
         </div>
 
-        <nav id="navbar" class="nav-menu navbar">
+        <nav class="nav-menu navbar" id="navbar">
             <ul>
-                <li><a href="#home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-                <li><a href="#" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-                <li><a href="#" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-                <li><a href="#" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-                <li><a href="#" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-                <li><a href="#" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+                <li><a class="nav-link scrollto active" href="#home"><i class="bx bx-home"></i> <span>Home</span></a>
+                </li>
+                <li><a class="nav-link scrollto" href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+                <li><a class="nav-link scrollto" href="#"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+                <li><a class="nav-link scrollto" href="#"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
+                </li>
+                <li><a class="nav-link scrollto" href="#"><i class="bx bx-server"></i> <span>Services</span></a></li>
+                <li><a class="nav-link scrollto" href="#"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
             </ul>
         </nav><!-- .nav-menu -->
     </div>
 </header><!-- End Header -->
 
 <!-- ======= home Section ======= -->
-<section id="home" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="home-container">
+<section class="d-flex flex-column justify-content-center align-items-center" id="home">
+    <div class="home-container" data-aos="fade-in">
         <h1>Nimesh</h1>
-        <p>I'm <span class="typed" data-typed-items="Student., Designer., Developer., Freelancer., Photographer."></span></p>
+        <p>I'm <span class="typed"
+                     data-typed-items="Student., Designer., Developer., Freelancer., Photographer."></span></p>
     </div>
 </section><!-- End home -->
 
+<main id="main">
+    <!-- ======= About Section ======= -->
+    <section class="about" id="about">
+        <div class="container">
 
-<!-- Vendor JS Files -->
-<script src="assets/frameworks/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/frameworks/aos/aos.js"></script>
-<script src="assets/frameworks/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/frameworks/glightbox/js/glightbox.min.js"></script>
-<script src="assets/frameworks/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/frameworks/swiper/swiper-bundle.min.js"></script>
-<script src="assets/frameworks/typed.js/typed.min.js"></script>
-<script src="assets/frameworks/waypoints/noframework.waypoints.js"></script>
-<script src="assets/frameworks/php-email-form/validate.js"></script>
+            <div class="section-title">
+                <h2>About</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img alt="" class="img-fluid imgAboutSize" id="aboutMain" src="assets/img/aboutMain.jpg">
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End About Section -->
+
+</main>
+<!-- Framework JS Files -->
+<script rel="script" src="assets/frameworks/purecounter/purecounter_vanilla.js"></script>
+<script rel="script" src="assets/frameworks/aos/aos.js"></script>
+<script rel="script" src="assets/frameworks/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script rel="script" src="assets/frameworks/glightbox/js/glightbox.min.js"></script>
+<script rel="script" src="assets/frameworks/isotope-layout/isotope.pkgd.min.js"></script>
+<script rel="script" src="assets/frameworks/swiper/swiper-bundle.min.js"></script>
+<script rel="script" src="assets/frameworks/typed.js/typed.min.js"></script>
+<script rel="script" src="assets/frameworks/waypoints/noframework.waypoints.js"></script>
+<script rel="script" src="assets/frameworks/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
-<script src="assets/styles/js/main.js"></script>
-
+<script rel="script" src="assets/styles/js/main.js"></script>
 </body>
 </html>
