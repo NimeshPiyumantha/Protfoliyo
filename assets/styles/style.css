@@ -75,7 +75,7 @@ h6 {
     transition: all ease-in-out 0.5s;
     z-index: 9997;
     padding: 0 15px;
-    background: #040b14;
+    background: #353b48;
     overflow-y: auto;
 }
 
@@ -151,7 +151,7 @@ h6 {
     list-style: none;
 }
 
-.nav-menu>ul>li {
+.nav-menu > ul > li {
     position: relative;
     white-space: nowrap;
 }
@@ -177,7 +177,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover>a {
+.nav-menu li:hover > a {
     text-decoration: none;
     color: #fff;
 }
@@ -185,7 +185,7 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
-.nav-menu li:hover>a i {
+.nav-menu li:hover > a i {
     color: #149ddd;
 }
 
@@ -362,11 +362,11 @@ section {
     margin-bottom: 0;
 }
 
-#aboutMain{
+#aboutMain {
     border-radius: 30px;
 }
 
-.imgAboutSize{
+.imgAboutSize {
     max-width: 75%;
 }
 
