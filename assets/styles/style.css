@@ -518,6 +518,7 @@ section {
     background: #fff;
     border: 2px solid #1f5297;
 }
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -533,6 +534,10 @@ section {
     border-radius: 50px;
     padding: 2px 15px;
     box-shadow: 0 -1px 8px 2px rgba(0, 0, 0, 0.22);
+}
+
+.imgSizes {
+    height: 230px;
 }
 
 .portfolio #portfolio-filters li {
@@ -723,7 +728,7 @@ section {
     font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
     margin-top: 10px;
 }
 

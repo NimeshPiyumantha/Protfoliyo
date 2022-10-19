@@ -191,7 +191,9 @@
    * Initiate portfolio lightbox
    */
   const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+    selector: '.portfolio-lightbox',
+    width: '90%',
+    height: '90vh'
   });
 
   /**
