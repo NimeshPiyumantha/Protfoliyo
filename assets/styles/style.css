@@ -1162,7 +1162,10 @@ section {
     bottom: 0;
     width: 300px;
     z-index: 9999;
-    background: #040b14;
+}
+
+.containerPosition{
+    width: 230px;
 }
 
 #footer .copyright {
@@ -1180,6 +1183,6 @@ section {
     #footer {
         position: static;
         width: auto;
-        padding-right: 20px;
+        padding: 20px 15px;
     }
 }
