@@ -1103,4 +1103,83 @@ section {
     }
 }
 
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+    padding: 20px 0;
+    background: #f9f9f9;
+}
 
+.breadcrumbs h2 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+.breadcrumbs ol li+li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #0e2442;
+    content: "/";
+}
+
+@media (max-width: 768px) {
+    .breadcrumbs .d-flex {
+        display: block !important;
+    }
+
+    .breadcrumbs ol {
+        display: block;
+    }
+
+    .breadcrumbs ol li {
+        display: inline-block;
+    }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    padding: 15px;
+    color: #f4f6fd;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999;
+    background: #040b14;
+}
+
+#footer .copyright {
+    text-align: center;
+}
+
+#footer .credits {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #eaebf0;
+}
+
+@media (max-width: 1199px) {
+    #footer {
+        position: static;
+        width: auto;
+        padding-right: 20px;
+    }
+}
