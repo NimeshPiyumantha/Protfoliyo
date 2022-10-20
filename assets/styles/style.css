@@ -745,3 +745,72 @@ section {
 .portfolio-details .portfolio-description p {
     padding: 0;
 }
+
+/*Features-stylesheets-include-here*/
+
+.line {
+    border:1px solid #0563bb;
+    width:15%;
+}
+
+#features {
+    text-align:center;
+    padding:2% 0%;
+}
+#features .nav-tabs {
+    display: inline-block;
+    margin-top:20px;
+}
+.tab p {
+    text-align:justify;
+}
+#features .nav-tabs > li.active > a, #features .nav-tabs > li.active > a:hover, #features .nav-tabs > li.active > a:focus {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .26);
+    border-bottom:2px solid #0563bb;
+    background:#f8f8f8;
+}
+#features .nav-tabs > li > a {
+    color:#555;
+    margin-right:0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .26);
+    background-color: #fff;
+    border-right: 1px solid #e0e0e0;
+    border-radius:0px;
+    border-bottom:1px solid #FFFFFF;
+    width: 110px;
+    padding: 0;
+    height: 80px;
+    line-height: 80px;
+    font-size: 32px;
+}
+#features .nav-tabs > li > a i.bi {
+    font-size:25px;
+}
+#features .nav-tabs > li.active > a i.bi {
+    color:#0563bb;
+}
+
+#features .nav-tabs > li > a:hover {
+    border-color:transparent;
+    border-right: 1px solid #e0e0e0;
+}
+#features p.feat-sec-1 {
+    padding-top:10px;
+}
+#features .tab-content .feat-sec {
+    margin-top:10px;
+}
+#features .tab-content h5 {
+    text-align:left;
+    font-weight:bolder;
+}
+#features .tab-content .line {
+    float:left;
+}
+.tab {
+    margin-top:20px;
+}
+.tab-img {
+    position:relative;
+    top:50px;
+}
