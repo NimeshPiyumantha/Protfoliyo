@@ -127,6 +127,10 @@ h6 {
     margin-left: 300px;
 }
 
+#main1 {
+    margin-left: 20px;
+}
+
 @media (max-width: 1199px) {
     #header {
         left: -300px;
@@ -685,6 +689,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+.sectionBorder{
+    box-shadow: rgba(0, 0, 0, 0.3) 13px 10px 20px 2px, rgba(0, 0, 0, 0.22) 0 11px 12px;
+    border-radius: 10px;
+}
+
 .portfolio-details {
     padding-top: 40px;
 }
@@ -1106,17 +1115,17 @@ section {
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
-.breadcrumbs {
+.pageHeader {
     padding: 20px 0;
     background: #f9f9f9;
 }
 
-.breadcrumbs h2 {
+.pageHeader h2 {
     font-size: 26px;
     font-weight: 300;
 }
 
-.breadcrumbs ol {
+.pageHeader ol {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -1125,11 +1134,11 @@ section {
     font-size: 15px;
 }
 
-.breadcrumbs ol li+li {
+.pageHeader ol li+li {
     padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.pageHeader ol li+li::before {
     display: inline-block;
     padding-right: 10px;
     color: #0e2442;
@@ -1137,15 +1146,15 @@ section {
 }
 
 @media (max-width: 768px) {
-    .breadcrumbs .d-flex {
+    .pageHeader .d-flex {
         display: block !important;
     }
 
-    .breadcrumbs ol {
+    .pageHeader ol {
         display: block;
     }
 
-    .breadcrumbs ol li {
+    .pageHeader ol li {
         display: inline-block;
     }
 }
