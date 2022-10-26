@@ -9,7 +9,7 @@ This is My Personal Web Project.
 
 
 ## Links
-* 🔗 <a href="" target="_blank">POS System Site Map</a>
+* 🔗 <a href="https://www.gloomaps.com/hor6ZJxcWy" target="_blank">POS System Site Map</a>
 * 🔗 <a href="" target="_blank">POS System Wire Frame</a>
 * 🔗 <a href="" target="_blank">POS System Mockup</a>
 * 🔗 <a href="" target="_blank">GitHub Page</a>
