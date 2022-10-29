@@ -15,7 +15,7 @@ This is My Personal Web Project.
 * 🔗 <a href="https://nimeshpiyumantha.github.io/Protfoliyo/" target="_blank">GitHub Page</a>
 
 ##
-![alt text]()
+![alt text](https://github.com/NimeshPiyumantha/Protfoliyo/blob/master/assets/img/homeUI.png)
 
 ###  
 ### Clone this repository ✅
